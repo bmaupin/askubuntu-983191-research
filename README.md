@@ -2,6 +2,8 @@
 
 Bullet points in Microsoft Word Online don't properly show up in Firefox on Linux.
 
+![bullet-points-firefox-broken](bullet-points-firefox-broken.png)
+
 
 ### Workaround
 

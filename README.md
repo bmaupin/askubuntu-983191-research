@@ -61,7 +61,7 @@ Microsoft's workaround is to provide these fonts as downloadable fonts using the
 However, Firefox isn't able to handle the fonts and returns the following errors in the browser console:
 
 ```
-downloadable font: not usable by platform (font-family: "Wingdings_MSFontService" style:normal weight:400 stretch:100 src index:0) source: https://fs.microsoft.com/fs/4.2/rawguids/37798520877 unknown:15:17
+downloadable font: not usable by platform (font-family: "Wingdings_MSFontService" style:normal weight:400 stretch:100 src index:0) source: https://fs.microsoft.com/fs/4.2/rawguids/37798520877
 downloadable font: not usable by platform (font-family: "symbol" style:normal weight:400 stretch:100 src index:0) source: https://fs.microsoft.com/fs/4.2/rawguids/26522609597
 ```
 
@@ -77,7 +77,7 @@ fc-cache -f -v
 However Word Online is specifically loading the "symbol" family as a web font, so it overrides the local font. Because the downloadable font fails, neither one shows up.
 
 
-### Steps to change font family name for workaround:
+### Steps used to change font family name for workaround:
 
 1. Download symbol.ttf from https://source.winehq.org/git/wine.git/blob/HEAD:/fonts/symbol.ttf
 
